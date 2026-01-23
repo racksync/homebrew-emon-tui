@@ -14,6 +14,6 @@ class EmonTui < Formula
   end
 
   test do
-    system bin/"emon-tui", "--help"
+    system bin/"emon", "--help"
   end
 end
