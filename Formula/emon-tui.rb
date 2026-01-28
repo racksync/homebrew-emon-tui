@@ -7,8 +7,8 @@ class EmonTui < Formula
 
   bottle do
     root_url "https://github.com/racksync/homebrew-emon-tui/releases/download/v0.1.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "c5295dc6793bc80c33d4833841448b4467c5ed184c72322fbb3cd6dad9be6749"
-    sha256 cellar: :any_skip_relocation, x86_64_sequoia: "f5bdb98d8113711b2a0ba7c66434eedb8c0f04b3cdbc45ab85e14361a8e37d57"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "1e69013210ee322c9fc2be91befb7339d0343e650ef63ab2fa9004182a9d239f"
+    sha256 cellar: :any_skip_relocation, x86_64_sequoia: "895425592862c5d44bd324d7169e742a6573502f53f910accd4b6e4785cb420c"
   end
 
   depends_on "rust" => :build
